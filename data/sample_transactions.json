@@ -1,0 +1,126 @@
+{
+  "session": {
+    "session_name": "finance_vs_stripe_nov_2025",
+    "system_a_name": "Internal Finance System",
+    "system_b_name": "Stripe Payment Processor",
+    "description": "November 2025 month-end reconciliation"
+  },
+  "system_a_transactions": [
+    {
+      "transaction_id": "PAY-10001",
+      "system": "system_a",
+      "amount": 150.00,
+      "transaction_metadata": "Customer A - Invoice #1001"
+    },
+    {
+      "transaction_id": "PAY-10002",
+      "system": "system_a",
+      "amount": 225.50,
+      "transaction_metadata": "Customer B - Invoice #1002"
+    },
+    {
+      "transaction_id": "PAY-10003",
+      "system": "system_a",
+      "amount": 89.99,
+      "transaction_metadata": "Customer C - Invoice #1003"
+    },
+    {
+      "transaction_id": "PAY-10004",
+      "system": "system_a",
+      "amount": 320.00,
+      "transaction_metadata": "Customer D - Invoice #1004"
+    },
+    {
+      "transaction_id": "PAY-10005",
+      "system": "system_a",
+      "amount": 175.25,
+      "transaction_metadata": "Customer E - Invoice #1005"
+    },
+    {
+      "transaction_id": "PAY-10006",
+      "system": "system_a",
+      "amount": 450.00,
+      "transaction_metadata": "Customer F - Invoice #1006"
+    },
+    {
+      "transaction_id": "PAY-10007",
+      "system": "system_a",
+      "amount": 99.99,
+      "transaction_metadata": "Customer G - Invoice #1007"
+    },
+    {
+      "transaction_id": "PAY-10008",
+      "system": "system_a",
+      "amount": 275.80,
+      "transaction_metadata": "Customer H - Invoice #1008"
+    },
+    {
+      "transaction_id": "PAY-10009",
+      "system": "system_a",
+      "amount": 500.00,
+      "transaction_metadata": "Customer I - Invoice #1009"
+    },
+    {
+      "transaction_id": "PAY-10010",
+      "system": "system_a",
+      "amount": 399.99,
+      "transaction_metadata": "Customer J - Invoice #1010"
+    }
+  ],
+  "system_b_transactions": [
+    {
+      "transaction_id": "PAY-10001",
+      "system": "system_b",
+      "amount": 150.00,
+      "transaction_metadata": "Stripe - ch_3AbCdE1234567890"
+    },
+    {
+      "transaction_id": "PAY-10002",
+      "system": "system_b",
+      "amount": 225.50,
+      "transaction_metadata": "Stripe - ch_3FgHiJ0987654321"
+    },
+    {
+      "transaction_id": "PAY-10003",
+      "system": "system_b",
+      "amount": 89.99,
+      "transaction_metadata": "Stripe - ch_3KlMnO1111111111"
+    },
+    {
+      "transaction_id": "PAY-10005",
+      "system": "system_b",
+      "amount": 175.25,
+      "transaction_metadata": "Stripe - ch_3PqRsT2222222222"
+    },
+    {
+      "transaction_id": "PAY-10007",
+      "system": "system_b",
+      "amount": 99.99,
+      "transaction_metadata": "Stripe - ch_3UvWxY3333333333"
+    },
+    {
+      "transaction_id": "PAY-10008",
+      "system": "system_b",
+      "amount": 275.80,
+      "transaction_metadata": "Stripe - ch_3ZaBcD4444444444"
+    },
+    {
+      "transaction_id": "PAY-10010",
+      "system": "system_b",
+      "amount": 399.99,
+      "transaction_metadata": "Stripe - ch_3EfGhI5555555555"
+    },
+    {
+      "transaction_id": "PAY-10011",
+      "system": "system_b",
+      "amount": 650.00,
+      "transaction_metadata": "Stripe - ch_3JkLmN6666666666"
+    },
+    {
+      "transaction_id": "PAY-10012",
+      "system": "system_b",
+      "amount": 125.75,
+      "transaction_metadata": "Stripe - ch_3OpQrS7777777777"
+    }
+  ]
+}
