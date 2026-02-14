@@ -49,3 +49,10 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+__pycache__/
+app/__pycache__/
+
+#logs
+logs/
+*.log
