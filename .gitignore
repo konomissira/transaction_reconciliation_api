@@ -1,11 +1,12 @@
 # Python
 __pycache__/
+*.pyc
 *.py[cod]
 *$py.class
 *.so
 .Python
 env/
-venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -51,7 +52,7 @@ htmlcov/
 Thumbs.db
 
 __pycache__/
-app/__pycache__/
+
 
 #logs
 logs/
