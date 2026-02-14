@@ -66,7 +66,13 @@ async def _request(method: str, path: str, json: Optional[Dict[str, Any]] = None
 
     async with httpx.AsyncClient(timeout=timeout) as client:
         resp = await client.request(method, url, json=json)
-        resp.raise_for_status()
+        if resp.status_code >= 400:
+            detail = resp.text
+            try:
+                detail = resp.json().get("detail", resp.text)
+            except Exception:
+                pass
+            raise ValueError(f"API error ({resp.status_code}): {detail}")
         if resp.headers.get("content-type", "").startswith("application/json"):
             return resp.json()
         return {"raw": resp.text}
