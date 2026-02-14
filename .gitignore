@@ -49,3 +49,7 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+#logs
+logs/
+*.log
