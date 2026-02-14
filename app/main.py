@@ -2,6 +2,11 @@ from fastapi import FastAPI
 from app.database import engine, Base
 from app.api.endpoints import router
 
+# Assistant router
+from assistant.router import router as assistant_router
+
+from fastapi.middleware.cors import CORSMiddleware
+
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
@@ -14,8 +19,23 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost",
+        "http://localhost:8000",
+        "http://127.0.0.1",
+        "http://127.0.0.1:8000",
+        "null",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Include API router
 app.include_router(router)
+app.include_router(assistant_router, prefix="/assistant", tags=["assistant"])
 
 
 @app.get("/")
