@@ -1,4 +1,4 @@
-# MCP Server — Transaction Reconciliation API
+# MCP Server for Transaction Reconciliation API
 
 This MCP (Model Context Protocol) server exposes the Transaction Reconciliation API as governed, auditable tools using the MCP Python SDK (FastMCP).
 
