@@ -23,7 +23,7 @@ On top of the core API, this project includes:
 
 > **AI is not the system. AI is the interface.**
 
-The system is still: clean data models, deterministic logic, governance and auditability, clear separation of concerns, and production-friendly deployment (Docker, APIs, tests).
+The system is still clean data models, deterministic logic, governance and auditability, clear separation of concerns, and production-friendly deployment (Docker, APIs, tests).
 
 ### The Problem
 
@@ -36,7 +36,7 @@ The system is still: clean data models, deterministic logic, governance and audi
 Traditional approaches:
 
 - Manual Excel VLOOKUP (hours of work, error-prone)
-- Nested loops checking each record (O(n²) - too slow at scale)
+- Nested loops checking each record (O(n²) too slow at scale)
 - Complex SQL queries across systems (fragile and hard to maintain)
 - Month-end panic when discrepancies are discovered
 
