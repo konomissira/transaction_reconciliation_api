@@ -1,6 +1,6 @@
 # Transaction Reconciliation API
 
-A production-ready REST API for reconciling transactions between different systems using Python set operations — now extended with a **governed AI assistant** and **MCP server** for safe, auditable interaction.
+A production-ready REST API for reconciling transactions between different systems using Python set operations now extended with a **governed AI assistant** and **MCP server** for safe, auditable interaction.
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-009688.svg)](https://fastapi.tiangolo.com)
@@ -15,9 +15,9 @@ This project demonstrates efficient transaction reconciliation for matching reco
 
 On top of the core API, this project includes:
 
-- **A governed AI assistant** — a deterministic, rule-based assistant layer that maps natural language questions to explicit API actions. No LLM, no black-box model. Every interaction is structured, explainable, and auditable.
-- **A browser-based chat UI** — a plain HTML/JavaScript interface that talks directly to the assistant API running locally.
-- **An MCP server** — exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
+- **A governed AI assistant** a deterministic, rule-based assistant layer that maps natural language questions to explicit API actions. No LLM, no black-box model. Every interaction is structured, explainable, and auditable.
+- **A browser-based chat UI** a plain HTML/JavaScript interface that talks directly to the assistant API running locally.
+- **An MCP server** exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
 
 ### The Philosophy
 
@@ -72,7 +72,7 @@ Using **set intersection and difference operations** to efficiently:
 - **Structured Responses**: Every response includes the action taken, the result data, and a human-readable explanation
 - **Audit Logging**: Every interaction is logged to `logs/assistant_audit.log` in JSONL format
 - **Example Prompts**: Built-in `/assistant/examples` endpoint for discoverability
-- **No External AI**: No LLM, no hosted models — entirely local and inspectable
+- **No External AI**: No LLM, no hosted models entirely local and inspectable
 
 ### MCP Server (Claude Desktop Integration)
 
@@ -84,7 +84,7 @@ Using **set intersection and difference operations** to efficiently:
 
 ### Browser Chat UI
 
-- **Standalone HTML**: Open `chat.html` directly in any browser — no build step, no dependencies
+- **Standalone HTML**: Open `chat.html` directly in any browser no build step, no dependencies
 - **Dark Grey & Emerald Green Theme**: Professional banking aesthetic
 - **Real-time Interaction**: Talks directly to the assistant API on localhost
 
@@ -275,7 +275,7 @@ Shows overall statistics including total amounts, match rate, and financial disc
 
 ## 🤖 Governed AI Assistant
 
-The assistant layer provides a natural language interface to the reconciliation API — without using any external AI service.
+The assistant layer provides a natural language interface to the reconciliation API without using any external AI service.
 
 ### How It Works
 
@@ -314,7 +314,7 @@ Every interaction returns three things:
 2. Open `chat.html` in your browser (double-click the file)
 3. Type a message like "reconcile session 1" and click Send
 
-The chat UI talks directly to `http://localhost:8002/assistant/chat` — no external services involved.
+The chat UI talks directly to `http://localhost:8002/assistant/chat` no external services involved.
 
 ### Audit Logging
 
