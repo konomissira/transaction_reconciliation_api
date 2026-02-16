@@ -6,11 +6,11 @@ A production-ready REST API for reconciling transactions between different syste
 <<<<<<< HEAD
 A production-ready REST API for reconciling transactions between different systems using Python set operations now extended with a **governed AI assistant** and **MCP server** for safe, auditable interaction.
 
+> > > > > > > # fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+> > > > > > >
+> > > > > > > A production-ready REST API for reconciling transactions between different systems using Python set operations now extended with a **governed AI assistant** and **MCP server** for safe, auditable interaction.
 > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
-A production-ready REST API for reconciling transactions between different systems using Python set operations — now extended with a **governed AI assistant** and **MCP server** for safe, auditable interaction.
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+> > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-009688.svg)](https://fastapi.tiangolo.com)
@@ -33,18 +33,15 @@ On top of the core API, this project includes:
 - # **An MCP server** exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
 - **A governed AI assistant** a deterministic, rule-based assistant layer that maps natural language questions to explicit API actions. No LLM, no black-box model. Every interaction is structured, explainable, and auditable.
 - **A browser-based chat UI** a plain HTML/JavaScript interface that talks directly to the assistant API running locally.
-- **An MCP server** exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
-    > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
+- # **An MCP server** exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action. > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+- **A governed AI assistant** a deterministic, rule-based assistant layer that maps natural language questions to explicit API actions. No LLM, no black-box model. Every interaction is structured, explainable, and auditable.
+- **A browser-based chat UI** a plain HTML/JavaScript interface that talks directly to the assistant API running locally.
+- # **An MCP server** exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
 - **A governed AI assistant** a deterministic, rule-based assistant layer that maps natural language questions to explicit API actions. No LLM, no black-box model. Every interaction is structured, explainable, and auditable.
 - **A browser-based chat UI** a plain HTML/JavaScript interface that talks directly to the assistant API running locally.
 - **An MCP server** exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
-=======
-- **A governed AI assistant** — a deterministic, rule-based assistant layer that maps natural language questions to explicit API actions. No LLM, no black-box model. Every interaction is structured, explainable, and auditable.
-- **A browser-based chat UI** — a plain HTML/JavaScript interface that talks directly to the assistant API running locally.
-- **An MCP server** — exposes the API as governed tools for Claude Desktop, with policy enforcement and audit logging on every action.
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+    > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+    > > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 
 ### The Philosophy
 
@@ -99,18 +96,15 @@ Using **set intersection and difference operations** to efficiently:
 - **Structured Responses**: Every response includes the action taken, the result data, and a human-readable explanation
 - **Audit Logging**: Every interaction is logged to `logs/assistant_audit.log` in JSONL format
 - **Example Prompts**: Built-in `/assistant/examples` endpoint for discoverability
-<<<<<<< HEAD
   <<<<<<< HEAD
+  <<<<<<< HEAD
+- # **No External AI**: No LLM, no hosted models entirely local and inspectable
+- # **No External AI**: No LLM, no hosted models entirely local and inspectable > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+    <<<<<<< HEAD
 - # **No External AI**: No LLM, no hosted models entirely local and inspectable
 - **No External AI**: No LLM, no hosted models entirely local and inspectable
     > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
-<<<<<<< HEAD
-- **No External AI**: No LLM, no hosted models entirely local and inspectable
-=======
-- **No External AI**: No LLM, no hosted models — entirely local and inspectable
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+    > > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 
 ### MCP Server (Claude Desktop Integration)
 
@@ -126,27 +120,24 @@ Using **set intersection and difference operations** to efficiently:
 <<<<<<< HEAD
 
 - # **Standalone HTML**: Open `chat.html` directly in any browser no build step, no dependencies
+- # **Standalone HTML**: Open `chat.html` directly in any browser no build step, no dependencies > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+- # **Standalone HTML**: Open `chat.html` directly in any browser no build step, no dependencies
 - **Standalone HTML**: Open `chat.html` directly in any browser no build step, no dependencies
     > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
-- **Standalone HTML**: Open `chat.html` directly in any browser no build step, no dependencies
-=======
-- **Standalone HTML**: Open `chat.html` directly in any browser — no build step, no dependencies
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+    > > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 - **Dark Grey & Emerald Green Theme**: Professional banking aesthetic
 - **Real-time Interaction**: Talks directly to the assistant API on localhost
 
 ## 🛠️ Tech Stack
 
 <<<<<<< HEAD
-| Technology        | Purpose                                      |
+| Technology | Purpose |
 | ----------------- | -------------------------------------------- |
-| **Python 3.11**   | Programming language                         |
-| **FastAPI**       | Modern, high-performance web framework       |
+| **Python 3.11** | Programming language |
+| **FastAPI** | Modern, high-performance web framework |
 | **PostgreSQL 15** | Relational database for transaction tracking |
-| **SQLAlchemy**    | ORM for database operations                  |
-| **Pydantic**      | Data validation and serialisation            |
+| **SQLAlchemy** | ORM for database operations |
+| **Pydantic** | Data validation and serialisation |
 
 <<<<<<< HEAD
 | **Docker & Docker-Compose** | Containerisation and orchestration |
@@ -159,25 +150,27 @@ Using **set intersection and difference operations** to efficiently:
 > > > > > > > | **httpx** | Async HTTP client (assistant → API calls) |
 > > > > > > > | **MCP Python SDK (FastMCP)** | Model Context Protocol server |
 > > > > > > > | **pyproject.toml** | Modern Python project configuration |
-=======
-| Technology                   | Purpose                                      |
-| ---------------------------- | -------------------------------------------- |
-| **Python 3.11**              | Programming language                         |
-| **FastAPI**                  | Modern, high-performance web framework       |
-| **PostgreSQL 15**            | Relational database for transaction tracking |
-| **SQLAlchemy**               | ORM for database operations                  |
-| **Pydantic**                 | Data validation and serialisation            |
-<<<<<<< HEAD
-| **Docker & Docker-Compose**  | Containerisation and orchestration           |
-=======
-| **Docker & Docker-Compose**  | Containerization and orchestration           |
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-| **pytest**                   | Testing framework                            |
-| **Uvicorn**                  | ASGI web server                              |
-| **httpx**                    | Async HTTP client (assistant → API calls)    |
-| **MCP Python SDK (FastMCP)** | Model Context Protocol server                |
-| **pyproject.toml**           | Modern Python project configuration          |
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+> > > > > > > =======
+> > > > > > > | Technology | Purpose |
+> > > > > > > | ---------------------------- | -------------------------------------------- |
+> > > > > > > | **Python 3.11** | Programming language |
+> > > > > > > | **FastAPI** | Modern, high-performance web framework |
+> > > > > > > | **PostgreSQL 15** | Relational database for transaction tracking |
+> > > > > > > | **SQLAlchemy** | ORM for database operations |
+> > > > > > > | **Pydantic** | Data validation and serialisation |
+> > > > > > > <<<<<<< HEAD
+
+# | **Docker & Docker-Compose** | Containerisation and orchestration |
+
+| **Docker & Docker-Compose** | Containerization and orchestration |
+
+> > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+> > > > > > > | **pytest** | Testing framework |
+> > > > > > > | **Uvicorn** | ASGI web server |
+> > > > > > > | **httpx** | Async HTTP client (assistant → API calls) |
+> > > > > > > | **MCP Python SDK (FastMCP)** | Model Context Protocol server |
+> > > > > > > | **pyproject.toml** | Modern Python project configuration |
+> > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 
 ## 📦 Installation
 
@@ -356,11 +349,11 @@ The assistant layer provides a natural language interface to the reconciliation 
 <<<<<<< HEAD
 The assistant layer provides a natural language interface to the reconciliation API without using any external AI service.
 
+> > > > > > > # fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+> > > > > > >
+> > > > > > > The assistant layer provides a natural language interface to the reconciliation API without using any external AI service.
 > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
-The assistant layer provides a natural language interface to the reconciliation API — without using any external AI service.
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+> > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 
 ### How It Works
 
@@ -405,11 +398,11 @@ The chat UI talks directly to `http://localhost:8002/assistant/chat` no external
 <<<<<<< HEAD
 The chat UI talks directly to `http://localhost:8002/assistant/chat` no external services involved.
 
+> > > > > > > # fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+> > > > > > >
+> > > > > > > The chat UI talks directly to `http://localhost:8002/assistant/chat` no external services involved.
 > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
-The chat UI talks directly to `http://localhost:8002/assistant/chat` — no external services involved.
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+> > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 
 ### Audit Logging
 
@@ -710,18 +703,15 @@ Demonstrating:
 - Clean architecture and design patterns
 - RESTful API development with FastAPI
 - Database modeling with SQLAlchemy
-<<<<<<< HEAD
   <<<<<<< HEAD
+  <<<<<<< HEAD
+- # Docker containerisation
+- # Docker containerization > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
+    <<<<<<< HEAD
 - # Docker containerisation
 - Docker containerization
     > > > > > > > fafddc4056e7defa3ec098d3d2a1a7afb00368c2
-=======
-<<<<<<< HEAD
-- Docker containerisation
-=======
-- Docker containerization
->>>>>>> fafddc4056e7defa3ec098d3d2a1a7afb00368c2
->>>>>>> 6c1670fc87848604ae0af91773401aedd63eb400
+    > > > > > > > 6c1670fc87848604ae0af91773401aedd63eb400
 - Test-driven development with pytest
 - Modern Python packaging (pyproject.toml)
 - Professional Git workflow with feature branches
